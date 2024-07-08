@@ -11,6 +11,7 @@ app.use(cors({
   origin: [
     'https://car-doctor-fec9d.web.app/',
     'https://car-doctor-fec9d.firebaseapp.com/',
+    'http://localhost:5173/',
   ],
   credentials: true,
 }));
